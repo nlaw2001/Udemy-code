@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Landing page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+		#topContainer{
+			background-image: url(pictures/autumn05.jpg);
+			height: 100%;
+			width:100%;
+			background-size:cover;
+		}
+		#topRow{
+			margin-top:20px;
+			text-align:center;
+			
+		}
+		#topRow h1{
+			font-size:400%
+			}
+			
+		.bold{
+				font-weight:bold;
+			 }
+		.paddingTop{
+				margin-top:30px;
+				
+			}	
+		.buttonCent{
+				padding-left:50%;
+			}
+			.centre{
+				text-align:center;
+			}
+		#footer{
+				background-color:#2DB5A8;
+				height:50px;
+			}		
+	</style>
+
+	
+	
+	
+  </head>
+  <body>
+  
+		
+		
+			<div class="navbar navbar-default navbar-fixed">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" ></a>;
+						<img alt="Brand" src="pictures/newLogo.png">
+						
+					</div>
+					
+					<div class="collapse navbar-collapse">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#download">Download the App</a></li>
+						</ul>	
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="email" placeholder="Email" class="form-content" />
+							</div>	
+							<div class="form-group">
+								<input type="password" placeholder="Password" class="form-content" />
+							</div>	
+							<button type="submit" class="btn btn-succes">Log In</button>
+							
+						</form>
+						
+						
+					</div>
+				</div>
+			</div>
+			<div class=" container contentContainer" id="topContainer">
+				<div class="row"> 
+					<div class="col-md-6-md-offset-3" id="topRow">
+					<h1>Normans App</h1>
+					<p class= "lead"> Come and take a look at my new app</p>
+					<p>Sign up today for your free trial!</p>
+					<p class="bold">Interested? Join our mailing list</p>
+					
+					</div>
+					</div>
+						<div class="input-group">
+								<span class="input-group-addon">0</span>
+				
+								<input type="email" class="form-control" placeholder="Your email"/>
+						</div>	
+						<div class="buttonCent">
+							<input type="submit" class="btn btn-success btn-lg paddingTop" />
+						</div>	
+			</div>
+
+								
+			<div class="container contentContainer" class="centre">
+					<div class="row">
+						<h1 class="centre">This is a great demo page</h1>
+						<p class="lead centre">This has been a great way to learn about<br /> the different aspects of Bootstrap</p>
+					</div>
+					<div class="row">
+						<div class="col-md-4">
+							<h2><span class="glyphicon glyphicon-music"></span>MUSIC</h2>
+								<p>A brief description of something or other. You could create a landing page for a song that you have created.</p>
+								
+								<button class="btn btn-success">Click me</button>
+						</div>
+						<div class="col-md-4">
+							<h2><span class="glyphicon glyphicon-user"></span>ME</h2>
+								<p>A brief description of something or other. You could have a page all about <strong>YOU</strong> if you like that type of thing.</p>
+								
+								<button class="btn btn-success">Click me</button>
+						</div>
+						<div class="col-md-4">
+							<h2><span class="glyphicon glyphicon-glass"></span>Lets Drink</h2>
+								<p>A brief description of something or other. So lets all raise a glass to bootstrap as a great way to make web pages!</p>
+								
+								<button class="btn btn-success">Click me</button>
+						</div>
+						
+					</div>
+					<div class="container contentContainer" id="footer">
+				<div class="row">
+					<h1 class="centre">Download the app</h1>
+					<p class="centre"><img src="pictures/newLogo.png"/>
+					
+				</div>
+				
+			</div>
+			</div>
+			
+			
+			
+  									
+				
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+		<script>
+			$(".contentContainer").css("min-height", $(window).height());
+		</script>
+	
+	
+	
+	
+  </body>
+</html>
